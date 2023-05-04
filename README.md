@@ -4,9 +4,15 @@ A clean, responsive web application that enables users to generate random passwo
 
 This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code.
 
-URL of the deployed application: 
+URL of the deployed application: https://lishakuinkel.github.io/Random-Password-Generator-using-JS/
 
 The following images show the web application's appearance and functionality:
+
+<img width="1427" alt="image" src="https://user-images.githubusercontent.com/130411719/236352511-a0bb3e25-f807-4078-b179-79c7b5f65b3b.png">
+
+<img width="988" alt="image" src="https://user-images.githubusercontent.com/130411719/236352690-7c9e2a20-f337-487d-830e-68ac24388037.png">
+
+
 
 
 
