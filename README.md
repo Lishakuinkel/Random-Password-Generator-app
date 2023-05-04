@@ -7,7 +7,7 @@ This app will run in the browser and will feature dynamically updated HTML and C
 URL of the deployed application: 
 
 The following images show the web application's appearance and functionality:
-image.png
+
 
 
 ## User Story
@@ -38,9 +38,4 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-## Mock-Up
-
-
-
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
 
