@@ -1,5 +1,4 @@
-// Assignment Code
-// Refactor starter code to do the following -
+// Assignment Code - Refactor starter code to do the following:
 // 1. Click the button then presents a series of prompts for password criteria
 // 2. Select the criterias needed for secure password
 // 3. Allow to choose the length of password from 8 - 128 characters
@@ -8,13 +7,16 @@
 // 6. All prompts answered
 // 7. Password is generated as alert or written on the page
 
+
+// Declaring variables for various character types
 var lowercase = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 var uppercase = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
 var numeric = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 var symbols = ['!','@','#','$','%','^','&','*','(',')'];
-var passwordresult = []; //creating an empty array
-var passwordlength = 8;
+var passwordresult = []; // Creating an empty array for resulting output
+var passwordlength = 8; // Declaring variable for password length with a default value
 
+// Referencing the <button> to call addEventListener function to this element
 var generateBtn = document.querySelector("#generate");
 
 // Add event listener to generate button
@@ -23,19 +25,19 @@ generateBtn.addEventListener("click", writePassword);
 // Write password to the #password input
 function writePassword() {
 
-  var rightprompts = getprompts(); //Returns True or False 
-  
+  var rightprompts = getprompts(); // Returns True or False 
+  // If true
   if (rightprompts){
 
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
-  passwordText.value = password;
+  passwordText.value = password; 
 
   }
   else {
 
-  passwordText.value = "";
+  passwordText.value = ""; // No password is generated if false
 
   }
 
@@ -45,12 +47,13 @@ function generatePassword(){
   var pwd = "";
   for (i = 0; i < passwordlength; i++){
     var randomindex = Math.floor(Math.random() * passwordresult.length); 
-    pwd = pwd + passwordresult[randomindex]; //randomresults provides the positioning value
+    pwd = pwd + passwordresult[randomindex]; //randomindex provides the positioning value
   }
 
   return pwd;
 }
 
+//getprompts() function asks and checks for valid input
 function getprompts(){
   passwordresult = []; 
 
