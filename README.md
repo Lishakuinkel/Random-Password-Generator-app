@@ -14,6 +14,7 @@ The following images show the web application's appearance and functionality:
 2. Prompt to enter desired password length
 <img width="988" alt="image" src="https://user-images.githubusercontent.com/130411719/236352690-7c9e2a20-f337-487d-830e-68ac24388037.png">
 
+3. Prompt to select desired character types
 <img width="940" alt="image" src="https://user-images.githubusercontent.com/130411719/236352800-2ad8c568-8ea6-46b3-9e9a-82d33f5f7548.png">
 
 <img width="973" alt="image" src="https://user-images.githubusercontent.com/130411719/236352840-822c7ccb-b689-4ee7-bc4f-9cf2943f0de1.png">
@@ -22,6 +23,7 @@ The following images show the web application's appearance and functionality:
 
 <img width="978" alt="image" src="https://user-images.githubusercontent.com/130411719/236352949-9866bbe8-9c10-45c3-a4eb-b211a19209fc.png">
 
+4. Generates random password
 <img width="963" alt="image" src="https://user-images.githubusercontent.com/130411719/236353005-b0e7f61f-9eed-41bb-9199-02c413449519.png">
 
 
