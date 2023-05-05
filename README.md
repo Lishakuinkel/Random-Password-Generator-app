@@ -23,7 +23,10 @@ The following images show the web application's appearance and functionality:
 
 <img width="978" alt="image" src="https://user-images.githubusercontent.com/130411719/236352949-9866bbe8-9c10-45c3-a4eb-b211a19209fc.png">
 
-4. Generates random password
+4. Checks for invalid input
+<img width="895" alt="image" src="https://user-images.githubusercontent.com/130411719/236376865-a2f3dc70-2950-489e-9a63-418d85645ecc.png">
+
+5. Generates random password
 <img width="963" alt="image" src="https://user-images.githubusercontent.com/130411719/236353005-b0e7f61f-9eed-41bb-9199-02c413449519.png">
 
 
