@@ -8,8 +8,10 @@ URL of the deployed application: https://lishakuinkel.github.io/Random-Password-
 
 The following images show the web application's appearance and functionality:
 
+1. When you open the website
 <img width="1427" alt="image" src="https://user-images.githubusercontent.com/130411719/236352511-a0bb3e25-f807-4078-b179-79c7b5f65b3b.png">
 
+2. Prompt to enter desired password length
 <img width="988" alt="image" src="https://user-images.githubusercontent.com/130411719/236352690-7c9e2a20-f337-487d-830e-68ac24388037.png">
 
 <img width="940" alt="image" src="https://user-images.githubusercontent.com/130411719/236352800-2ad8c568-8ea6-46b3-9e9a-82d33f5f7548.png">
